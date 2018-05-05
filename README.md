@@ -1,1 +1,1 @@
-# LicentaAPI
+API for diploma mobile app
