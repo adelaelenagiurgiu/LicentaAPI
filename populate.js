@@ -202,13 +202,13 @@ const sections = [
 
   {
     firstImage: "https://image.ibb.co/hKkwFd/slider_item_2_1.jpg",
-    name: "Dermatovenerologie",
+    name: "Dermatologie",
     sectionDescription:
       "Dermato-venerologia reprezintă o specialitate medicală ce se ocupă de totalitatea patofenomenelor care se produc la nivelul organului cutanat (piele, mucoase accesibile, fanere), la orice vârstă, inclusiv boli cu transmitere sexuală (venerice).",
     doctors: [
       {
         doctorName: "Andreea Daniela Tunei",
-        doctorSpecialization: "Dermatovenerologie",
+        doctorSpecialization: "Dermatologie",
         doctorProfessionalGrade: "Medic Primar",
         doctorImage: "https://preview.ibb.co/eyJQad/261417_P4_LLAB_806.jpg",
         doctorTelephone: "+40 722 345 923",
@@ -1124,13 +1124,13 @@ const sections = [
 
   {
     firstImage: "https://image.ibb.co/kitivd/csm_150513_news_b9fca8f749.jpg",
-    name: "Radiologie și imagistică medicală",
+    name: "Radiologie",
     sectionDescription:
       "Imagistica medicală este o specialitate științifică recentă, care reunește o largă varietate de științe în scopul studierii modului în care se formează, înregistrează, transmit, analizează, procesează, percep și se stochează imagini ale organelor sau țesuturilor, prin diferite tehnici, cu scopul de a le folosi pentru a diagnostica bolile.",
     doctors: [
       {
         doctorName: "Monica-Dorina Borlovan",
-        doctorSpecialization: "Radiologie și imagistică medicală",
+        doctorSpecialization: "Radiologie",
         doctorProfessionalGrade: "Medic primar",
         doctorImage: "https://preview.ibb.co/mKah5d/287306_P6_KAVN_267.jpg",
         doctorTelephone: "+40 730 104 440",
@@ -1227,7 +1227,7 @@ const sections = [
 
       {
         doctorName: "Liliana Marincu",
-        doctorSpecialization: "Radiologie și imagistică medicală",
+        doctorSpecialization: "Radiologie",
         doctorProfessionalGrade: "Medic primar",
         doctorImage: "https://image.ibb.co/htDPJy/O6T8LS0.jpg",
         doctorTelephone: "+40 723 936 341",
