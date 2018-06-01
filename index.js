@@ -4,8 +4,7 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 
 const keys = require("./config/keys");
-require("./populate");
-
+//require("./populate");
 const router = require("./router");
 
 mongoose.connect(keys.mongoURI);
