@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const model = require("./models/Section");
-const Section = model.sectionModel;
+const Section = require("./models/Section");
 const keys = require("./config/keys");
 
 const sections = [
@@ -20,27 +19,204 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Marti",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Vineri",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Sambata",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -216,27 +392,204 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Marti",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Vineri",
-            timeFrame: "14:00 - 20:00"
+            timeFrame: "14:00 - 20:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Sambata",
-            timeFrame: "08:00 - 13:40"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -336,8 +689,7 @@ const sections = [
         price: 220
       },
       {
-        ServiceType:
-          "Chiuretare veruci vulgare maini sau piciore/ lez.(variabil functie de durata sedintei si nr.lez.)",
+        ServiceType: "Chiuretare veruci vulgare maini sau piciore/ lez.",
         price: 110
       },
       {
@@ -361,13 +713,11 @@ const sections = [
         price: 100
       },
       {
-        ServiceType:
-          "E - matrix - rejuvenare faciala / cicatrici post acnee / tratare vergeturi - 1 impuls",
+        ServiceType: "E - matrix - rejuvenare faciala",
         price: 11
       },
       {
-        ServiceType:
-          "Electr. Angioame (variabil functie de durata sedintei si nr leziunilor)",
+        ServiceType: "Electr. Angioame",
         price: 275
       },
       {
@@ -455,19 +805,112 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "08:00 - 13:10"
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Marti",
-            timeFrame: "15:30 - 20:00"
+            timeFrame: "16:00 - 20:00",
+            appointments: [
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "17:00 - 20:00"
+            timeFrame: "16:00 - 20:00",
+            appointments: [
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Vineri",
-            timeFrame: "15:00 - 16:20"
+            timeFrame: "12:00 - 16:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -551,11 +994,45 @@ const sections = [
         doctorSchedule: [
           {
             day: "Marti",
-            timeFrame: "15:30 - 17:30"
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "09:00 - 11:00"
+            timeFrame: "09:00 - 12:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -601,8 +1078,7 @@ const sections = [
         price: 45
       },
       {
-        ServiceType:
-          "Aspirat endometrial cu sonda tip Pipell (necesita si ex. histopatologic)",
+        ServiceType: "Aspirat endometrial cu sonda tip Pipell",
         price: 155
       },
       {
@@ -614,7 +1090,7 @@ const sections = [
         price: 550
       },
       {
-        ServiceType: "Biopsie de exocol ( necesita examen histopatologic )",
+        ServiceType: "Biopsie de exocol",
         price: 330
       },
       {
@@ -626,15 +1102,15 @@ const sections = [
         price: 550
       },
       {
-        ServiceType: "Chiuretaj endocol (necesita examen histopatologic)",
+        ServiceType: "Chiuretaj endocol",
         price: 550
       },
       {
-        ServiceType: "Chiuretaj uterin pentru intreruperea sarcinii la cerere",
+        ServiceType: "Chiuretaj uterin pentru intreruperea sarcinii",
         price: 660
       },
       {
-        ServiceType: "Conizatie de col uterin cu ansa / biopsie excizionala",
+        ServiceType: "Conizatie de col uterin cu ansa",
         price: 770
       },
       {
@@ -704,15 +1180,76 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "08:00 - 12:00"
+            timeFrame: "08:00 - 12:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "09:00 - 13:00"
+            timeFrame: "09:00 - 13:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Vineri",
-            timeFrame: "15:00 - 18:00"
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -735,7 +1272,7 @@ const sections = [
             doctorVisits: [
               {
                 dateOfTheVisit: new Date(2018, 4, 3),
-                analysisTitle: "Consultatie (autorefractometrie cu picaturi)",
+                analysisTitle: "Consultatie",
                 results: [
                   { result: "VD:13.5" },
                   { result: "-3.00-0.25 30A -3.25-1.00 8A" },
@@ -770,7 +1307,7 @@ const sections = [
             doctorVisits: [
               {
                 dateOfTheVisit: new Date(2018, 4, 12),
-                analysisTitle: "Consultatie (autorefractometrie fara picaturi)",
+                analysisTitle: "Consultatie",
                 results: [
                   { result: "VD:13.5" },
                   { result: "-3.00-0.50 30A -3.25-1.00 8A" },
@@ -798,11 +1335,45 @@ const sections = [
         doctorSchedule: [
           {
             day: "Marti",
-            timeFrame: "12:00 - 15:00"
+            timeFrame: "12:00 - 15:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "17:00 - 20:00"
+            timeFrame: "17:00 - 20:00",
+            appointments: [
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -855,11 +1426,50 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "12:00-16:00"
+            timeFrame: "12:00-16:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "15:00 - 18:00"
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -883,7 +1493,7 @@ const sections = [
               {
                 dateOfTheVisit: new Date(2018, 3, 23),
                 analysisTitle:
-                  "Consultatie B: Consultatie A + FO, TN, test Schirmer",
+                  "Consultatie B: Consultatie A + FO, test Schirmer",
                 results: [
                   { result: "Senzatie de durere, arsura" },
                   { result: "Camp vizual bun" }
@@ -933,12 +1543,11 @@ const sections = [
         price: 145
       },
       {
-        ServiceType:
-          "Consultatie A: acuitate vizuala, autorefractometrie, prescriptie ochelari",
+        ServiceType: "Consultatie A: acuitate vizuala",
         price: 165
       },
       {
-        ServiceType: "Consultatie B: Consultatie A + FO, TN, test Schirmer",
+        ServiceType: "Consultatie B: Consultatie A + FO, test Schirmer",
         price: 220
       },
       {
@@ -1012,23 +1621,133 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "15:00 - 19:30"
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Marti",
-            timeFrame: "9:00 - 13:30"
+            timeFrame: "9:00 - 13:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "15:00 - 19:30"
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "9:00 - 13:30"
+            timeFrame: "9:00 - 13:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Vineri",
-            timeFrame: "9:00 - 13:30"
+            timeFrame: "9:00 - 13:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -1138,11 +1857,45 @@ const sections = [
         doctorSchedule: [
           {
             day: "Luni",
-            timeFrame: "10:30 - 13:30"
+            timeFrame: "10:00 - 13:00",
+            appointments: [
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Miercuri",
-            timeFrame: "10:30 - 13:30"
+            timeFrame: "10:00 - 13:00",
+            appointments: [
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -1235,11 +1988,45 @@ const sections = [
         doctorSchedule: [
           {
             day: "Marți",
-            timeFrame: "14:00 - 17:00"
+            timeFrame: "14:00 - 17:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              }
+            ]
           },
           {
             day: "Joi",
-            timeFrame: "14:00 - 17:00"
+            timeFrame: "14:00 - 17:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -1295,12 +2082,11 @@ const sections = [
         price: 50
       },
       {
-        ServiceType:
-          "Ex. radiologic torace osos (sau parti) in mai multe planuri/Ex. radiologic torace si organe toracice",
+        ServiceType: "Ex. radiologic torace osos",
         price: 60
       },
       {
-        ServiceType: "Ex. radiologic vizualizare generala a abdomenului nativ",
+        ServiceType: "Ex. radiologic vizualizare abdomen",
         price: 45
       },
       {
@@ -1312,8 +2098,7 @@ const sections = [
         price: 45
       },
       {
-        ServiceType:
-          "Radiografie de membre - Antebrat/Brat/Calcaneu/Coapse/Cot/Gamba/Glezna/Mana/Picior/Pumn/Sold",
+        ServiceType: "Radiografie de membre",
         price: 45
       }
     ]
