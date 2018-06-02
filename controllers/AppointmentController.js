@@ -1,5 +1,25 @@
+const schedule = require("node-schedule");
+
 const Appointment = require("../models/Appointment");
 const Section = require("../models/Section");
+
+schedule.scheduleJob("*/1 */13 * * */7", () => {
+  Section.find((err, sections) => {
+    if (err) return err;
+    sections.map(section => {
+      section.doctors.map(doctor => {
+        doctor.doctorSchedule.map(day => {
+          day.appointments.map(appointment => {
+            appointment.booked = false;
+          });
+        });
+      });
+      section.save(err => {
+        if (err) return err;
+      });
+    });
+  });
+});
 
 exports.getAvailableHours = (req, res, next) => {
   const doctorName = req.params.doctor;
