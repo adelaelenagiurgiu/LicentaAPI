@@ -71,7 +71,7 @@ exports.updateStatus = (req, res, next) => {
 };
 
 exports.book = (req, res, next) => {
-  const appoinment = new Appointment({
+  const appointment = new Appointment({
     patient: req.body.patient,
     doctor: req.body.doctor,
     weekDay: req.body.weekDay,
@@ -79,7 +79,7 @@ exports.book = (req, res, next) => {
     start: req.body.start,
     end: req.body.end
   });
-  appoinment.save(err => {
+  appointment.save(err => {
     if (err) return next(err);
     res.json({ created: true });
   });

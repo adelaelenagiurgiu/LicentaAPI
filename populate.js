@@ -4,7 +4,7 @@ const keys = require("./config/keys");
 
 const sections = [
   {
-    firstImage: "https://ibb.co/kJhvQd",
+    firstImage: "https://preview.ibb.co/dyt25d/ekg_electrocardiograma.jpg",
     name: "Cardiologie",
     sectionDescription:
       "Cardiologia este o specialitate medicală care are ca subiect de studiu bolile inimii și ale vaselor de sânge. Cardiologia cuprinde diagnosticul și tratamentul bolilor cardiace congenitale, bolii cardiace ischemice, insuficienței cardiace, valvulopatiilor, aritmiilor și al bolilor pericardului.",
@@ -988,7 +988,7 @@ const sections = [
         doctorSpecialization:
           "Ginecologie/ Ecografie 2D/ Ecografie 3D/ Ecografie 4D",
         doctorProfessionalGrade: "Medic Specialist",
-        doctorImage: "https://image.ibb.co/djb5Qd/256462_P4_EP88_979.jpg",
+        doctorImage: "https://image.ibb.co/fKyFBT/256462_P4_EP88_979_min.jpg",
         doctorTelephone: "+40 799 782 553",
         doctorEmail: "romeo.muntean@yahoo.com",
         doctorSchedule: [
@@ -1420,7 +1420,8 @@ const sections = [
         doctorName: "Cristiana Florina Gherman",
         doctorSpecialization: "Oftalmologie",
         doctorProfessionalGrade: "Medic Specialist",
-        doctorImage: "https://image.ibb.co/j1miBJ/7807.jpg",
+        doctorImage:
+          "https://preview.ibb.co/gJBMJ8/32970385_1971160846247719_4559329104368762880_n.jpg",
         doctorTelephone: "+40 742 396 155",
         doctorEmail: "florinagherman@yahoo.com",
         doctorSchedule: [
@@ -1982,7 +1983,8 @@ const sections = [
         doctorName: "Liliana Marincu",
         doctorSpecialization: "Radiologie",
         doctorProfessionalGrade: "Medic primar",
-        doctorImage: "https://image.ibb.co/htDPJy/O6T8LS0.jpg",
+        doctorImage:
+          "https://preview.ibb.co/dKBcrT/33173076_1971160819581055_594332695337631744_n.jpg",
         doctorTelephone: "+40 723 936 341",
         doctorEmail: "marincu.liliana@gmail.com",
         doctorSchedule: [
