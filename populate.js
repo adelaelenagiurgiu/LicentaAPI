@@ -887,6 +887,37 @@ const sections = [
             ]
           },
           {
+            day: "Joi",
+            timeFrame: "08:00 - 13:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Vineri",
             timeFrame: "12:00 - 16:00",
             appointments: [
@@ -908,6 +939,32 @@ const sections = [
               {
                 start: "15:00",
                 end: "16:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "16:00 - 20:00",
+            appointments: [
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
                 booked: false
               }
             ]
@@ -993,6 +1050,32 @@ const sections = [
         doctorEmail: "romeo.muntean@yahoo.com",
         doctorSchedule: [
           {
+            day: "Luni",
+            timeFrame: "16:00 - 20:00",
+            appointments: [
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Marti",
             timeFrame: "15:00 - 18:00",
             appointments: [
@@ -1014,6 +1097,27 @@ const sections = [
             ]
           },
           {
+            day: "Miercuri",
+            timeFrame: "09:00 - 12:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Joi",
             timeFrame: "09:00 - 12:00",
             appointments: [
@@ -1030,6 +1134,48 @@ const sections = [
               {
                 start: "11:00",
                 end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Vineri",
+            timeFrame: "09:00 - 12:00",
+            appointments: [
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
                 booked: false
               }
             ]
@@ -1205,6 +1351,27 @@ const sections = [
             ]
           },
           {
+            day: "Marti",
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Miercuri",
             timeFrame: "09:00 - 13:00",
             appointments: [
@@ -1231,6 +1398,32 @@ const sections = [
             ]
           },
           {
+            day: "Joi",
+            timeFrame: "08:00 - 12:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Vineri",
             timeFrame: "15:00 - 18:00",
             appointments: [
@@ -1247,6 +1440,32 @@ const sections = [
               {
                 start: "17:00",
                 end: "18:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "08:00 - 12:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
                 booked: false
               }
             ]
@@ -1334,6 +1553,32 @@ const sections = [
         doctorEmail: "petreaclaudia@gmail.com",
         doctorSchedule: [
           {
+            day: "Luni",
+            timeFrame: "08:00 - 12:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Marti",
             timeFrame: "12:00 - 15:00",
             appointments: [
@@ -1371,6 +1616,74 @@ const sections = [
               {
                 start: "19:00",
                 end: "20:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Joi",
+            timeFrame: "08:00 - 12:00",
+            appointments: [
+              {
+                start: "8:00",
+                end: "9:00",
+                booked: false
+              },
+              {
+                start: "9:00",
+                end: "10:00",
+                booked: false
+              },
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Vineri",
+            timeFrame: "17:00 - 20:00",
+            appointments: [
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              },
+              {
+                start: "19:00",
+                end: "20:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "12:00 - 15:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
                 booked: false
               }
             ]
@@ -1452,7 +1765,91 @@ const sections = [
             ]
           },
           {
+            day: "Marti",
+            timeFrame: "12:00 - 15:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Miercuri",
+            timeFrame: "12:00 - 15:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Joi",
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Vineri",
+            timeFrame: "12:00 - 15:00",
+            appointments: [
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              },
+              {
+                start: "13:00",
+                end: "14:00",
+                booked: false
+              },
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
             timeFrame: "15:00 - 18:00",
             appointments: [
               {
@@ -1749,6 +2146,27 @@ const sections = [
                 booked: false
               }
             ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
           }
         ],
         patients: [
@@ -1878,6 +2296,27 @@ const sections = [
             ]
           },
           {
+            day: "Marti",
+            timeFrame: "15:00 - 18:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Miercuri",
             timeFrame: "10:00 - 13:00",
             appointments: [
@@ -1894,6 +2333,79 @@ const sections = [
               {
                 start: "12:00",
                 end: "13:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Joi",
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Vineri",
+            timeFrame: "10:00 - 13:00",
+            appointments: [
+              {
+                start: "10:00",
+                end: "11:00",
+                booked: false
+              },
+              {
+                start: "11:00",
+                end: "12:00",
+                booked: false
+              },
+              {
+                start: "12:00",
+                end: "13:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
                 booked: false
               }
             ]
@@ -1989,6 +2501,32 @@ const sections = [
         doctorEmail: "marincu.liliana@gmail.com",
         doctorSchedule: [
           {
+            day: "Luni",
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Marți",
             timeFrame: "14:00 - 17:00",
             appointments: [
@@ -2010,7 +2548,75 @@ const sections = [
             ]
           },
           {
+            day: "Miercuri",
+            timeFrame: "15:00 - 19:00",
+            appointments: [
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              },
+              {
+                start: "17:00",
+                end: "18:00",
+                booked: false
+              },
+              {
+                start: "18:00",
+                end: "19:00",
+                booked: false
+              }
+            ]
+          },
+          {
             day: "Joi",
+            timeFrame: "14:00 - 17:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Vineri",
+            timeFrame: "14:00 - 17:00",
+            appointments: [
+              {
+                start: "14:00",
+                end: "15:00",
+                booked: false
+              },
+              {
+                start: "15:00",
+                end: "16:00",
+                booked: false
+              },
+              {
+                start: "16:00",
+                end: "17:00",
+                booked: false
+              }
+            ]
+          },
+          {
+            day: "Sambata",
             timeFrame: "14:00 - 17:00",
             appointments: [
               {
