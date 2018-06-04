@@ -8,8 +8,11 @@ const router = Router();
 router.route("/sections").get(sectionController.getSections);
 router.route("/book").post(appointmentController.book);
 router
-  .route("/appointments/:doctor/:weekDay")
+  .route("/users/:doctor/:weekDay")
   .get(appointmentController.getAvailableHours);
 router.route("/appointments/status").put(appointmentController.updateStatus);
+router
+  .route("/appointments/patient/:patientName")
+  .get(appointmentController.getAppointmentsForPatient);
 
 module.exports = router;

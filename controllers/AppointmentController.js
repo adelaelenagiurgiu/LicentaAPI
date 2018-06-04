@@ -25,6 +25,7 @@ exports.getAvailableHours = (req, res, next) => {
   const doctorName = req.params.doctor;
   const weekDay = req.params.weekDay;
 
+  console.log("entered");
   Section.findOne({ "doctors.doctorName": doctorName })
     .lean()
     .exec((err, section) => {
@@ -43,6 +44,18 @@ exports.getAvailableHours = (req, res, next) => {
       });
 
       res.json({ hours: availableHours });
+    });
+};
+
+exports.getAppointmentsForPatient = (req, res, next) => {
+  const patient = req.params.patientName;
+  Appointment.find({ patient: patient })
+    .lean()
+    .exec((err, appointments) => {
+      if (err) return next(err);
+      res.json({
+        appointments: appointments
+      });
     });
 };
 
