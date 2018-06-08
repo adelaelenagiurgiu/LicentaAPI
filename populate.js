@@ -2527,7 +2527,7 @@ const sections = [
             ]
           },
           {
-            day: "Marți",
+            day: "Marti",
             timeFrame: "14:00 - 17:00",
             appointments: [
               {
