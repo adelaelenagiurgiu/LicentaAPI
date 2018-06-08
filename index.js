@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const keys = require("./config/keys");
 
 //require("./populate");
-const router = require("./router");
+const router = require("./services/router");
 
 mongoose.connect(keys.mongoURI);
 
