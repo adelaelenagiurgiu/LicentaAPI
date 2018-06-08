@@ -4,7 +4,8 @@ const keys = require("./config/keys");
 
 const sections = [
   {
-    firstImage: "https://preview.ibb.co/dyt25d/ekg_electrocardiograma.jpg",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34792143_1149443325196806_3345205054528290816_n.jpg",
     name: "Cardiologie",
     sectionDescription:
       "Cardiologia este o specialitate medicală care are ca subiect de studiu bolile inimii și ale vaselor de sânge. Cardiologia cuprinde diagnosticul și tratamentul bolilor cardiace congenitale, bolii cardiace ischemice, insuficienței cardiace, valvulopatiilor, aritmiilor și al bolilor pericardului.",
@@ -13,7 +14,8 @@ const sections = [
         doctorName: "Cristian Mornos",
         doctorSpecialization: "Cardiologie",
         doctorProfessionalGrade: "Medic Specialist",
-        doctorImage: "https://preview.ibb.co/hfGddy/OIFDDZ0.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528462225/app/35050660_1149445491863256_8259729371615461376_n.jpg",
         doctorTelephone: "+40 756 622 559",
         doctorEmail: "cristian.mornos@yahoo.com",
         doctorSchedule: [
@@ -377,7 +379,8 @@ const sections = [
   },
 
   {
-    firstImage: "https://image.ibb.co/hKkwFd/slider_item_2_1.jpg",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528462011/app/34822130_1149444078530064_2374319322081263616_n.jpg",
     name: "Dermatologie",
     sectionDescription:
       "Dermato-venerologia reprezintă o specialitate medicală ce se ocupă de totalitatea patofenomenelor care se produc la nivelul organului cutanat (piele, mucoase accesibile, fanere), la orice vârstă, inclusiv boli cu transmitere sexuală (venerice).",
@@ -386,7 +389,8 @@ const sections = [
         doctorName: "Andreea Daniela Tunei",
         doctorSpecialization: "Dermatologie",
         doctorProfessionalGrade: "Medic Primar",
-        doctorImage: "https://preview.ibb.co/eyJQad/261417_P4_LLAB_806.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461428/app/34844867_1149442041863601_3257251709218455552_n.jpg",
         doctorTelephone: "+40 722 345 923",
         doctorEmail: "andreea.tunei@gmail.com",
         doctorSchedule: [
@@ -789,7 +793,8 @@ const sections = [
   },
 
   {
-    firstImage: "https://image.ibb.co/eWVPJy/generis_12.jpg",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34780027_1149443335196805_7120902278931808256_n.jpg",
     name: "Ginecologie",
     sectionDescription:
       "Ginecologia reprezintă ramura medicinei care se ocupă cu diagnosticarea și tratarea bolilor ce afecteaza sistemul genital feminin. Patogenia ginecologică este una extrem de extinsă cuprinzand bolile de la nivelul organelor genitale interne (uter, ovar, trompe uterine, vagin), a organului genital extern (vulva), dar și a glandelor anexe, precum glandele mamare.",
@@ -799,7 +804,8 @@ const sections = [
         doctorSpecialization:
           "Ginecologie/ Ecografie 2D/ Ecografie 3D/ Ecografie 4D",
         doctorProfessionalGrade: "Medic Specialist",
-        doctorImage: "https://preview.ibb.co/dHg8Ty/3765.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461428/app/34758945_1149442051863600_6418988022993256448_n.jpg",
         doctorTelephone: "+40 789 772 892",
         doctorEmail: "lianacicala@gmail.com",
         doctorSchedule: [
@@ -1045,7 +1051,8 @@ const sections = [
         doctorSpecialization:
           "Ginecologie/ Ecografie 2D/ Ecografie 3D/ Ecografie 4D",
         doctorProfessionalGrade: "Medic Specialist",
-        doctorImage: "https://image.ibb.co/fKyFBT/256462_P4_EP88_979_min.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34788478_1149442915196847_4980517554742099968_n.jpg",
         doctorTelephone: "+40 799 782 553",
         doctorEmail: "romeo.muntean@yahoo.com",
         doctorSchedule: [
@@ -1311,7 +1318,8 @@ const sections = [
   },
 
   {
-    firstImage: "https://image.ibb.co/eAikQd/276.jpg",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461428/app/34790161_1149442028530269_6178269644516753408_n.jpg",
     name: "Oftalmologie",
     sectionDescription:
       'Oftalmologia este o ramură a medicinei care se ocupă cu tratarea bolilor organului vederii, ceea ce include ochiul și structurile din jurul ochiului, cum ar fi pleoapele și sistemul lacrimar. Patologia căilor vizuale (nervul optic, căile vizuale centrale) și a cortexului vizual reprezintă un domeniu de graniță între neurologie și oftalmologie ("neurooftalmologie").',
@@ -1320,7 +1328,8 @@ const sections = [
         doctorName: "Cosmina Elena Carabas",
         doctorSpecialization: "Oftalmologie",
         doctorProfessionalGrade: "Medic Primar",
-        doctorImage: "https://preview.ibb.co/nMcJvd/30.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528462225/app/34790641_1149445508529921_6285505181077471232_n.jpg",
         doctorTelephone: "+40 732 994 625",
         doctorEmail: "elena.carabas@yahoo.com",
         doctorSchedule: [
@@ -1548,7 +1557,8 @@ const sections = [
         doctorName: "Claudia Petrea",
         doctorSpecialization: "Oftalmologie",
         doctorProfessionalGrade: "Medic Primar",
-        doctorImage: "https://preview.ibb.co/gxaFQd/261434_P4_LLCP_397.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461428/app/34558722_1149442068530265_7829036472148688896_n.jpg",
         doctorTelephone: "+40 779 224 415",
         doctorEmail: "petreaclaudia@gmail.com",
         doctorSchedule: [
@@ -1734,7 +1744,7 @@ const sections = [
         doctorSpecialization: "Oftalmologie",
         doctorProfessionalGrade: "Medic Specialist",
         doctorImage:
-          "https://preview.ibb.co/gJBMJ8/32970385_1971160846247719_4559329104368762880_n.jpg",
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34560771_1149442948530177_3621380733085417472_n.jpg",
         doctorTelephone: "+40 742 396 155",
         doctorEmail: "florinagherman@yahoo.com",
         doctorSchedule: [
@@ -2004,7 +2014,8 @@ const sections = [
   },
 
   {
-    firstImage: "https://image.ibb.co/hPMHoy/grgrgththr.png",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34668377_1149443328530139_1628378881104805888_n.png",
     name: "Oncologie",
     sectionDescription:
       "Oncologia este un domeniu al științei medicale, care se ocupă de studierea etiologiei, patogenezei, diagnosticului, clinicii, tratamentului, abilitării și profilaxiei cancerului, la baza căreia stau metodele chirurgicale, radiologice și medicamentoase de tratament, efectuând în același timp elaborarea și perfecționarea lor.",
@@ -2013,7 +2024,8 @@ const sections = [
         doctorName: "Paula Toma",
         doctorSpecialization: "Oncologie medicala",
         doctorProfessionalGrade: "Medic Primar",
-        doctorImage: "https://preview.ibb.co/eacjJy/256525_P4_EPFF_980.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528462224/app/34818212_1149445525196586_259630154567909376_n.jpg",
         doctorTelephone: "+40 744 922 437",
         doctorEmail: "toma.paula@gmail.com",
         doctorSchedule: [
@@ -2261,7 +2273,8 @@ const sections = [
   },
 
   {
-    firstImage: "https://image.ibb.co/kitivd/csm_150513_news_b9fca8f749.jpg",
+    firstImage:
+      "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34689894_1149444068530065_7263872574755438592_n.jpg",
     name: "Radiologie",
     sectionDescription:
       "Imagistica medicală este o specialitate științifică recentă, care reunește o largă varietate de științe în scopul studierii modului în care se formează, înregistrează, transmit, analizează, procesează, percep și se stochează imagini ale organelor sau țesuturilor, prin diferite tehnici, cu scopul de a le folosi pentru a diagnostica bolile.",
@@ -2270,7 +2283,8 @@ const sections = [
         doctorName: "Monica-Dorina Borlovan",
         doctorSpecialization: "Radiologie",
         doctorProfessionalGrade: "Medic primar",
-        doctorImage: "https://preview.ibb.co/mKah5d/287306_P6_KAVN_267.jpg",
+        doctorImage:
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528462250/app/34782417_1149448588529613_1220705627660091392_n.jpg",
         doctorTelephone: "+40 730 104 440",
         doctorEmail: "monicaborlovan@gmail.com",
         doctorSchedule: [
@@ -2496,7 +2510,7 @@ const sections = [
         doctorSpecialization: "Radiologie",
         doctorProfessionalGrade: "Medic primar",
         doctorImage:
-          "https://preview.ibb.co/dKBcrT/33173076_1971160819581055_594332695337631744_n.jpg",
+          "http://res.cloudinary.com/dcbisng7a/image/upload/v1528461740/app/34818844_1149442938530178_1716043656151957504_n.jpg",
         doctorTelephone: "+40 723 936 341",
         doctorEmail: "marincu.liliana@gmail.com",
         doctorSchedule: [
