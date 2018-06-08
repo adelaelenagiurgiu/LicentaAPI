@@ -20,8 +20,7 @@ const sectionSchema = new Schema({
           appointments: [
             {
               start: String,
-              end: String,
-              booked: Boolean
+              end: String
             }
           ]
         }

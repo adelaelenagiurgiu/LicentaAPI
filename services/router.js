@@ -15,7 +15,7 @@ router.route("/login").post(requireLogin, authController.Login);
 router.route("/sections").get(sectionController.getSections);
 router.route("/book").post(requireAuth, appointmentController.book);
 router
-  .route("/users/:doctor/:weekDay")
+  .route("/users/:doctor/:weekDay/:date")
   .get(requireAuth, appointmentController.getAvailableHours);
 router
   .route("/appointments/status")

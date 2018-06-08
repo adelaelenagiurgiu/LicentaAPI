@@ -1,31 +1,12 @@
-const schedule = require("node-schedule");
-
 const Appointment = require("../models/Appointment");
 const Section = require("../models/Section");
-
-schedule.scheduleJob("*/1 */13 * * */7", () => {
-  Section.find((err, sections) => {
-    if (err) return err;
-    sections.map(section => {
-      section.doctors.map(doctor => {
-        doctor.doctorSchedule.map(day => {
-          day.appointments.map(appointment => {
-            appointment.booked = false;
-          });
-        });
-      });
-      section.save(err => {
-        if (err) return err;
-      });
-    });
-  });
-});
 
 exports.getAvailableHours = (req, res, next) => {
   const doctorName = req.params.doctor;
   const weekDay = req.params.weekDay;
+  const dateParam = req.params.date;
+  const date = dateParam.split("-");
 
-  console.log("entered");
   Section.findOne({ "doctors.doctorName": doctorName })
     .lean()
     .exec((err, section) => {
@@ -37,13 +18,27 @@ exports.getAvailableHours = (req, res, next) => {
       );
 
       const availableHours = [];
-      day.appointments.map(hour => {
-        if (!hour.booked) {
-          availableHours.push(hour);
-        }
-      });
+      for (const appointment of day.appointments) {
+        availableHours.push(appointment);
+      }
 
-      res.json({ hours: availableHours });
+      Appointment.find({ doctor: doctorName, weekDay: weekDay })
+        .lean()
+        .exec((err, appointments) => {
+          for (const appointment of appointments) {
+            for (const hour of availableHours) {
+              if (
+                appointment.start === hour.start &&
+                appointment.date.day === date[0] &&
+                appointment.date.month === date[1] &&
+                appointment.date.year === date[2]
+              ) {
+                availableHours.splice(availableHours.indexOf(hour), 1);
+              }
+            }
+          }
+          res.json({ hours: availableHours });
+        });
     });
 };
 

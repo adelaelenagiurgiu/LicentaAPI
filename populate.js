@@ -25,28 +25,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -56,33 +51,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -92,28 +81,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -123,33 +107,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -159,33 +137,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -195,28 +167,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           }
@@ -400,28 +367,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -431,33 +393,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -467,28 +423,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -498,33 +449,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -534,33 +479,27 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -570,28 +509,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           }
@@ -815,28 +749,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -846,23 +775,19 @@ const sections = [
             appointments: [
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -872,23 +797,19 @@ const sections = [
             appointments: [
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -898,28 +819,23 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -929,23 +845,19 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               }
             ]
           },
@@ -955,23 +867,19 @@ const sections = [
             appointments: [
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           }
@@ -1062,23 +970,19 @@ const sections = [
             appointments: [
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -1088,18 +992,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           },
@@ -1109,18 +1010,15 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1130,18 +1028,15 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1151,18 +1046,15 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1172,18 +1064,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           }
@@ -1339,23 +1228,19 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1365,18 +1250,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           },
@@ -1386,23 +1268,19 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -1412,23 +1290,19 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1438,18 +1312,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           },
@@ -1459,23 +1330,19 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           }
@@ -1568,23 +1435,19 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1594,18 +1457,15 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               }
             ]
           },
@@ -1615,18 +1475,15 @@ const sections = [
             appointments: [
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -1636,23 +1493,19 @@ const sections = [
             appointments: [
               {
                 start: "8:00",
-                end: "9:00",
-                booked: false
+                end: "9:00"
               },
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               }
             ]
           },
@@ -1662,18 +1515,15 @@ const sections = [
             appointments: [
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               },
               {
                 start: "19:00",
-                end: "20:00",
-                booked: false
+                end: "20:00"
               }
             ]
           },
@@ -1683,18 +1533,15 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               }
             ]
           }
@@ -1740,7 +1587,7 @@ const sections = [
         ]
       },
       {
-        doctorName: "Cristiana Florina Gherman",
+        doctorName: "Cristiana Gherman",
         doctorSpecialization: "Oftalmologie",
         doctorProfessionalGrade: "Medic Specialist",
         doctorImage:
@@ -1754,23 +1601,19 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               }
             ]
           },
@@ -1780,18 +1623,15 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               }
             ]
           },
@@ -1801,18 +1641,15 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               }
             ]
           },
@@ -1822,18 +1659,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           },
@@ -1843,18 +1677,15 @@ const sections = [
             appointments: [
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               },
               {
                 start: "13:00",
-                end: "14:00",
-                booked: false
+                end: "14:00"
               },
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               }
             ]
           },
@@ -1864,18 +1695,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           }
@@ -2035,23 +1863,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           },
@@ -2061,23 +1885,19 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2087,23 +1907,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           },
@@ -2113,23 +1929,19 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2139,23 +1951,19 @@ const sections = [
             appointments: [
               {
                 start: "9:00",
-                end: "10:00",
-                booked: false
+                end: "10:00"
               },
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2165,18 +1973,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           }
@@ -2294,18 +2099,15 @@ const sections = [
             appointments: [
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2315,18 +2117,15 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               }
             ]
           },
@@ -2336,18 +2135,15 @@ const sections = [
             appointments: [
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2357,23 +2153,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           },
@@ -2383,18 +2175,15 @@ const sections = [
             appointments: [
               {
                 start: "10:00",
-                end: "11:00",
-                booked: false
+                end: "11:00"
               },
               {
                 start: "11:00",
-                end: "12:00",
-                booked: false
+                end: "12:00"
               },
               {
                 start: "12:00",
-                end: "13:00",
-                booked: false
+                end: "13:00"
               }
             ]
           },
@@ -2404,23 +2193,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           }
@@ -2520,23 +2305,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           },
@@ -2546,18 +2327,15 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               }
             ]
           },
@@ -2567,23 +2345,19 @@ const sections = [
             appointments: [
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               },
               {
                 start: "17:00",
-                end: "18:00",
-                booked: false
+                end: "18:00"
               },
               {
                 start: "18:00",
-                end: "19:00",
-                booked: false
+                end: "19:00"
               }
             ]
           },
@@ -2593,18 +2367,15 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               }
             ]
           },
@@ -2614,18 +2385,15 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               }
             ]
           },
@@ -2635,18 +2403,15 @@ const sections = [
             appointments: [
               {
                 start: "14:00",
-                end: "15:00",
-                booked: false
+                end: "15:00"
               },
               {
                 start: "15:00",
-                end: "16:00",
-                booked: false
+                end: "16:00"
               },
               {
                 start: "16:00",
-                end: "17:00",
-                booked: false
+                end: "17:00"
               }
             ]
           }
