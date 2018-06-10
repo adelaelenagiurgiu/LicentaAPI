@@ -19,20 +19,6 @@ const userSchema = new Schema({
     type: String,
     required: true
   },
-  gender: String,
-  name: String,
-  cnp: {
-    type: String,
-    minlength: 13,
-    maxlength: 13
-  },
-  street: String,
-  postalCode: String,
-  phone: String,
-  city: String,
-  country: String,
-  weight: String,
-  height: String,
   role: String
 });
 

@@ -29,6 +29,7 @@ router
   .route("/appointments/delete/:id")
   .delete(requireAuth, appointmentController.delete);
 
+router.route("/patients/add").post(requireAuth, patientController.addPatient);
 router
   .route("/patients/:patient")
   .get(requireAuth, patientController.getHistory);

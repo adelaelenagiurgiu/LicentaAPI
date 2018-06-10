@@ -24,38 +24,6 @@ const sectionSchema = new Schema({
             }
           ]
         }
-      ],
-      patients: [
-        {
-          patientName: String,
-          patientGender: String,
-          patientCNP: String,
-          patientTelephone: String,
-          patientEmail: String,
-          patientAddress: {
-            country: String,
-            city: String,
-            streetName: String,
-            streetNumber: Number,
-            postalCode: String
-          },
-          patientAge: Number,
-          patientWeight: Number,
-          patientHeight: Number,
-          doctorVisits: [
-            {
-              dateOfTheVisit: { type: Date, default: Date.now },
-              analysisTitle: String,
-              results: [
-                {
-                  result: String
-                }
-              ],
-              disease: String,
-              medication: String
-            }
-          ]
-        }
       ]
     }
   ],

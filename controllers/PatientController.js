@@ -1,18 +1,41 @@
-const Section = require("../models/Section");
+const Patient = require("../models/Patient");
 
 exports.getHistory = (req, res, next) => {
-  const patientParam = req.params.patient;
-  Section.find({ "doctors.patients.patientName": patientParam })
+  const patient = req.params.patient;
+  Patient.findOne({ patientName: patient })
     .lean()
-    .exec((err, sections) => {
-      for (const section of sections) {
-        for (const doctor of section.doctors) {
-          for (const patient of doctor.patients) {
-            if (patient.patientName === patientParam) {
-              res.json({ history: patient.doctorVisits });
-            }
-          }
-        }
-      }
+    .exec((err, patient) => {
+      if (err) return next(err);
+      res.json({ history: patient.doctorVisits });
     });
+};
+
+exports.addPatient = (req, res, next) => {
+  const data = {
+    patientName: req.body.name,
+    patientGender: req.body.gender,
+    patientCNP: req.body.cnp,
+    patientTelephone: req.body.phone,
+    patientEmail: req.body.email,
+    patientAddress: req.body.address,
+    patientAge: req.body.age,
+    patientWeight: req.body.weight,
+    patientHeight: req.body.height
+  };
+
+  Patient.findOne(
+    { patientEmail: data.patientEmail },
+    (err, existingPatient) => {
+      if (err) return next(err);
+      if (existingPatient)
+        return res
+          .status(422)
+          .json({ error: "Pacientul este deja inregistrat" });
+      const patient = new Patient(data);
+      patient.save(err => {
+        if (err) return next(err);
+        res.json({ patient: patient });
+      });
+    }
+  );
 };

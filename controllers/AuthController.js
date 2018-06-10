@@ -25,16 +25,6 @@ exports.Register = (req, res, next) => {
     const user = new User({
       email: email,
       password: req.body.password,
-      gender: req.body.gender,
-      name: req.body.name,
-      cnp: req.body.cnp,
-      street: req.body.street,
-      postalCode: req.body.postalCode,
-      phone: req.body.phone,
-      city: req.body.city,
-      country: req.body.country,
-      weight: req.body.weight,
-      height: req.body.height,
       role: req.body.role || "patient"
     });
     user.save(err => {

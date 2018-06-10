@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const keys = require("./config/keys");
 
 //require("./populate");
+//require("./populatePatients");
 const router = require("./services/router");
 
 mongoose.connect(keys.mongoURI);
