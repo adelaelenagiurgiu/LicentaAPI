@@ -92,3 +92,15 @@ exports.book = (req, res, next) => {
     res.json({ created: true });
   });
 };
+
+exports.delete = (req, res, next) => {
+  const id = req.params.id;
+  Appointment.findByIdAndRemove({ _id: id }, (err, appointment) => {
+    if (err) return next(err);
+    if (appointment) {
+      res.json({
+        deleted: true
+      });
+    }
+  });
+};

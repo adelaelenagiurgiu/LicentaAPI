@@ -13,6 +13,7 @@ router.route("/register").post(authController.Register);
 router.route("/login").post(requireLogin, authController.Login);
 
 router.route("/sections").get(sectionController.getSections);
+
 router.route("/book").post(requireAuth, appointmentController.book);
 router
   .route("/users/:doctor/:weekDay/:date")
@@ -23,5 +24,8 @@ router
 router
   .route("/appointments/patient/:patientName")
   .get(requireAuth, appointmentController.getAppointmentsForPatient);
+router
+  .route("/appointments/delete/:id")
+  .delete(requireAuth, appointmentController.delete);
 
 module.exports = router;
