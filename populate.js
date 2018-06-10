@@ -190,7 +190,7 @@ const sections = [
         ],
         patients: [
           {
-            patientName: "David Armășescu",
+            patientName: "David Armasescu",
             patientGender: "Masculin",
             patientCNP: "1700909350911",
             patientTelephone: "+40 714 992 188",
@@ -1548,7 +1548,7 @@ const sections = [
         ],
         patients: [
           {
-            patientName: "Raluca Andreea Cătuneanu",
+            patientName: "Raluca Andreea Catuneanu",
             patientGender: "Feminin",
             patientCNP: "2530430356010",
             patientTelephone: "+40 760 330 043",
@@ -2418,7 +2418,7 @@ const sections = [
         ],
         patients: [
           {
-            patientName: "Loredana Ștefănescu",
+            patientName: "Loredana Stefanescu",
             patientGender: "Feminin",
             patientCNP: "2710210354541",
             patientTelephone: "+40 762 509 200",

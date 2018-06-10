@@ -4,6 +4,7 @@ require("./passport");
 const sectionController = require("../controllers/SectionController");
 const appointmentController = require("../controllers/AppointmentController");
 const authController = require("../controllers/AuthController");
+const patientController = require("../controllers/PatientController");
 
 const requireAuth = passport.authenticate("jwt", { session: false });
 const requireLogin = passport.authenticate("local", { session: false });
@@ -27,5 +28,9 @@ router
 router
   .route("/appointments/delete/:id")
   .delete(requireAuth, appointmentController.delete);
+
+router
+  .route("/patients/:patient")
+  .get(requireAuth, patientController.getHistory);
 
 module.exports = router;
