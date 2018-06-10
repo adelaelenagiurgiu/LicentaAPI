@@ -9,7 +9,7 @@ exports.getHistory = (req, res, next) => {
         for (const doctor of section.doctors) {
           for (const patient of doctor.patients) {
             if (patient.patientName === patientParam) {
-              res.json({ patient });
+              res.json({ history: patient.doctorVisits });
             }
           }
         }
