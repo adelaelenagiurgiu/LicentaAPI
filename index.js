@@ -7,7 +7,7 @@ const keys = require("./config/keys");
 
 //require("./populate/populateSections");
 //require("./populate/populatePatients");
-require("./populate/populateAppointments");
+//require("./populate/populateAppointments");
 const router = require("./services/router");
 
 mongoose.connect(keys.mongoURI);
