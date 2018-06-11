@@ -14,6 +14,8 @@ const appointmentSchema = new Schema({
   start: String,
   end: String,
   analysis: String,
+  disease: String,
+  medication: String,
   results: [
     {
       result: String
