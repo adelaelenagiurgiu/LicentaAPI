@@ -54,34 +54,11 @@ exports.getAppointmentsForPatient = (req, res, next) => {
     });
 };
 
-exports.updateStatus = (req, res, next) => {
-  const doctorName = req.body.doctor;
-  const weekDay = req.body.weekDay;
-  const startHour = req.body.startHour;
-
-  Section.findOne({ "doctors.doctorName": doctorName }, (err, section) => {
-    if (err) return next(err);
-
-    const doctor = section.doctors.find(
-      doctor => doctor.doctorName === doctorName
-    );
-    const day = doctor.doctorSchedule.find(element => element.day === weekDay);
-    const appointment = day.appointments.find(
-      element => element.start === startHour
-    );
-    appointment.booked = true;
-
-    section.save(err => {
-      if (err) return next(err);
-      res.json({ updated: true });
-    });
-  });
-};
-
 exports.book = (req, res, next) => {
   const appointment = new Appointment({
     patient: req.body.patient,
     doctor: req.body.doctor,
+    doctorImage: req.body.doctorImage,
     weekDay: req.body.weekDay,
     date: req.body.date,
     start: req.body.start,

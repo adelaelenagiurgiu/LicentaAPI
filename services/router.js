@@ -20,9 +20,6 @@ router
   .route("/users/:doctor/:weekDay/:date")
   .get(requireAuth, appointmentController.getAvailableHours);
 router
-  .route("/appointments/status")
-  .put(requireAuth, appointmentController.updateStatus);
-router
   .route("/appointments/patient/:patientName")
   .get(requireAuth, appointmentController.getAppointmentsForPatient);
 router
