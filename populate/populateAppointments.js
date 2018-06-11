@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Appointment = require("../models/Section");
+const Appointment = require("../models/Appointment");
 const keys = require("../config/keys");
 
 const appointments = [
