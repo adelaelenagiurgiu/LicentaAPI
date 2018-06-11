@@ -12,7 +12,13 @@ const appointmentSchema = new Schema({
     year: String
   },
   start: String,
-  end: String
+  end: String,
+  analysis: String,
+  results: [
+    {
+      result: String
+    }
+  ]
 });
 
 module.exports = mongoose.model("appointments", appointmentSchema);
