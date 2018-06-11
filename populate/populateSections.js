@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Section = require("./models/Section");
-const keys = require("./config/keys");
+const Section = require("../models/Section");
+const keys = require("../config/keys");
 
 const sections = [
   {

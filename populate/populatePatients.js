@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Patient = require("./models/Patient");
-const keys = require("./config/keys");
+const Patient = require("../models/Patient");
+const keys = require("../config/keys");
 
 const patients = [
   {
