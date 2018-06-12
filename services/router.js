@@ -5,6 +5,7 @@ const sectionController = require("../controllers/SectionController");
 const appointmentController = require("../controllers/AppointmentController");
 const authController = require("../controllers/AuthController");
 const patientController = require("../controllers/PatientController");
+const doctorController = require("../controllers/DoctorController");
 
 const requireAuth = passport.authenticate("jwt", { session: false });
 const requireLogin = passport.authenticate("local", { session: false });
@@ -30,5 +31,7 @@ router.route("/patients/add").post(requireAuth, patientController.addPatient);
 router
   .route("/patients/:patient")
   .get(requireAuth, patientController.getPacient);
+
+router.route("/doctors/:doctor").get(requireAuth, doctorController.getDoctor);
 
 module.exports = router;
