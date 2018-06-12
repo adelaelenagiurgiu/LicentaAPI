@@ -1,12 +1,12 @@
 const Patient = require("../models/Patient");
 
-exports.getHistory = (req, res, next) => {
+exports.getPacient = (req, res, next) => {
   const patient = req.params.patient;
   Patient.findOne({ patientName: patient })
     .lean()
     .exec((err, patient) => {
       if (err) return next(err);
-      res.json({ history: patient.doctorVisits });
+      res.json(patient);
     });
 };
 

@@ -29,6 +29,6 @@ router
 router.route("/patients/add").post(requireAuth, patientController.addPatient);
 router
   .route("/patients/:patient")
-  .get(requireAuth, patientController.getHistory);
+  .get(requireAuth, patientController.getPacient);
 
 module.exports = router;
