@@ -82,6 +82,26 @@ exports.book = (req, res, next) => {
   });
 };
 
+exports.updateAppointment = (req, res, next) => {
+  const id = req.params.id;
+  const analysis = req.body.analysis;
+  const disease = req.body.disease;
+  const medication = req.body.medication;
+  const results = req.body.results;
+
+  Appointment.findById(id, (err, appointment) => {
+    if (err) return next(err);
+    appointment.analysis = analysis;
+    appointment.disease = disease;
+    appointment.medication = medication;
+    appointment.results = results;
+    appointment.save(err => {
+      if (err) return next(err);
+      res.json({ appointment });
+    });
+  });
+};
+
 exports.delete = (req, res, next) => {
   const id = req.params.id;
   Appointment.findByIdAndRemove({ _id: id }, (err, appointment) => {

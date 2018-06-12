@@ -27,6 +27,9 @@ router
   .route("/appointments/doctor/:doctorName")
   .get(requireAuth, appointmentController.getAppointmentsForDoctor);
 router
+  .route("/appointments/update/:id")
+  .put(requireAuth, appointmentController.updateAppointment);
+router
   .route("/appointments/delete/:id")
   .delete(requireAuth, appointmentController.delete);
 
