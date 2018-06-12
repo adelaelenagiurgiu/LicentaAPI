@@ -29,9 +29,11 @@ router
 
 router.route("/patients/add").post(requireAuth, patientController.addPatient);
 router
-  .route("/patients/:patient")
+  .route("/patients/:patientEmail")
   .get(requireAuth, patientController.getPacient);
 
-router.route("/doctors/:doctor").get(requireAuth, doctorController.getDoctor);
+router
+  .route("/doctors/:doctorEmail")
+  .get(requireAuth, doctorController.getDoctor);
 
 module.exports = router;

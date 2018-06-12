@@ -1,8 +1,8 @@
 const Patient = require("../models/Patient");
 
 exports.getPacient = (req, res, next) => {
-  const patient = req.params.patient;
-  Patient.findOne({ patientEmail: patient })
+  const email = req.params.patientEmail;
+  Patient.findOne({ patientEmail: email })
     .lean()
     .exec((err, patient) => {
       if (err) return next(err);
