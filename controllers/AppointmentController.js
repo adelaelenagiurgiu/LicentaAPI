@@ -54,6 +54,18 @@ exports.getAppointmentsForPatient = (req, res, next) => {
     });
 };
 
+exports.getAppointmentsForDoctor = (req, res, next) => {
+  const doctor = req.params.doctorName;
+  Appointment.find({ doctor: doctor })
+    .lean()
+    .exec((err, appointments) => {
+      if (err) return next(err);
+      res.json({
+        appointments: appointments
+      });
+    });
+};
+
 exports.book = (req, res, next) => {
   const appointment = new Appointment({
     patient: req.body.patient,

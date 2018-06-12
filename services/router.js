@@ -24,6 +24,9 @@ router
   .route("/appointments/patient/:patientName")
   .get(requireAuth, appointmentController.getAppointmentsForPatient);
 router
+  .route("/appointments/doctor/:doctorName")
+  .get(requireAuth, appointmentController.getAppointmentsForDoctor);
+router
   .route("/appointments/delete/:id")
   .delete(requireAuth, appointmentController.delete);
 
