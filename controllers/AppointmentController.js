@@ -49,7 +49,7 @@ exports.getAppointmentsForPatient = (req, res, next) => {
     .exec((err, appointments) => {
       if (err) return next(err);
       res.json({
-        appointments: appointments
+        appointments
       });
     });
 };
@@ -61,7 +61,7 @@ exports.getAppointmentsForDoctor = (req, res, next) => {
     .exec((err, appointments) => {
       if (err) return next(err);
       res.json({
-        appointments: appointments
+        appointments
       });
     });
 };
@@ -78,7 +78,7 @@ exports.book = (req, res, next) => {
   });
   appointment.save(err => {
     if (err) return next(err);
-    res.json({ created: true });
+    res.json({ appointment });
   });
 };
 

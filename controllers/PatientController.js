@@ -34,7 +34,7 @@ exports.addPatient = (req, res, next) => {
       const patient = new Patient(data);
       patient.save(err => {
         if (err) return next(err);
-        res.json({ patient: patient });
+        res.json({ patient });
       });
     }
   );
