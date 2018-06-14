@@ -33,8 +33,18 @@ exports.getPacients = (req, res, next) => {
         { patientName: { $in: patientsForDoctor } },
         (err, patients) => {
           if (err) return next(err);
+          const patientsToSort = patients;
 
-          res.json(patients);
+          patientsToSort.sort((x, y) => {
+            if (x.patientName < y.patientName) {
+              return -1;
+            } else if (x.patientName > y.patientName) {
+              return 1;
+            }
+            return 0;
+          });
+
+          res.json(patientsToSort);
         }
       );
     });
