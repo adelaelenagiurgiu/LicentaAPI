@@ -41,5 +41,8 @@ router
 router
   .route("/doctors/:doctorEmail")
   .get(requireAuth, doctorController.getDoctor);
+router
+  .route("/doctors/patients/:doctorName")
+  .get(requireAuth, doctorController.getPacients);
 
 module.exports = router;
