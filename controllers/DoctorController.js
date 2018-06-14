@@ -1,5 +1,6 @@
 const Section = require("../models/Section");
 const Patient = require("../models/Patient");
+const Appointment = require("../models/Appointment");
 
 exports.getDoctor = (req, res, next) => {
   const email = req.params.doctorEmail;
@@ -18,9 +19,23 @@ exports.getDoctor = (req, res, next) => {
 exports.getPacients = (req, res, next) => {
   const name = req.params.doctorName;
 
-  Patient.find({ "doctorVisits.doctorName": name }, (err, patients) => {
-    if (err) return next(err);
+  const patientsForDoctor = [];
+  Appointment.find({ doctor: name })
+    .lean()
+    .exec((err, appointments) => {
+      if (err) return next(err);
 
-    res.json({ patients });
-  });
+      for (const app of appointments) {
+        patientsForDoctor.push(app.patient);
+      }
+
+      Patient.find(
+        { patientName: { $in: patientsForDoctor } },
+        (err, patients) => {
+          if (err) return next(err);
+
+          res.json(patients);
+        }
+      );
+    });
 };
